@@ -1,0 +1,26 @@
+<template>
+  <h1 class="h2">Line Chart</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <line-chart type="line"
+          title="Basic line"
+          subtitle="Brazilian population, 2010-2018"
+          title-y="Population"
+          series.bind="seriesPopulation"
+          point-start.bind="2010">
+        </line-chart>
+      </div>
+
+      <div class="col-6">
+        <line-chart type="spline"
+          title="Spline"
+          title-y="Example"
+          series.bind="seriesSpline"
+          point-start.bind="0"
+        </line-chart>
+      </div>
+    </div>
+  </div>
+</template>

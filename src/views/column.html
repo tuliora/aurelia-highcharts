@@ -1,0 +1,29 @@
+<template>
+  <h1 class="h2">Column Chart</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <column-chart
+          title="Basic column"
+          subtitle="Monthly Average Rainfall"
+          title-y="Rainfall (mm)"
+          point-format.bind="pointFormat"
+          series.bind="seriesRainfall"
+          categories.bind="categories">
+        </column-chart>
+      </div>
+
+      <div class="col-6">
+        <column-chart stacking="normal"
+          title="Stacked column"
+          subtitle="Monthly Average Rainfall"
+          title-y="Rainfall (mm)"
+          point-format.bind="pointFormat"
+          series.bind="seriesRainfall"
+          categories.bind="categories">
+        </column-chart>
+      </div>
+    </div>
+  </div>
+</template>

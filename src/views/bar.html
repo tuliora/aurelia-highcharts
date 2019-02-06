@@ -1,0 +1,27 @@
+<template>
+  <h1 class="h2">Bar Chart</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <bar-chart
+          title="Basic bar"
+          subtitle="Historic World Population by Region"
+          title-y="Population (millions)"
+          series.bind="series"
+          categories.bind="categories">
+        </bar-chart>
+      </div>
+
+      <div class="col-6">
+        <bar-chart stacking="normal"
+          title="Stacked bar"
+          subtitle="Historic World Population by Region"
+          title-y="Population (millions)"
+          series.bind="series"
+          categories.bind="categories">
+        </bar-chart>
+      </div>
+    </div>
+  </div>
+</template>
