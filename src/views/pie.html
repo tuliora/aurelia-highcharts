@@ -1,0 +1,24 @@
+<template>
+  <h1 class="h2">Pie Chart</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <pie-chart type="pie"
+          title="Basic pie"
+          subtitle="Browser market shares in January, 2018"
+          series.bind="series">
+        </pie-chart>
+      </div>
+
+      <div class="col-6">
+        <pie-chart type="pie"
+          title="3D pie"
+          subtitle="Browser market shares at a specific website, 2014"
+          series.bind="series3D"
+          options3d.bind="options3D">
+        </pie-chart>
+      </div>
+    </div>
+  </div>
+</template>
