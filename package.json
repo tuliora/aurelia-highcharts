@@ -10,11 +10,13 @@
   "dependencies": {
     "aurelia-animator-css": "1.0.4",
     "aurelia-bootstrapper": "2.3.0",
+    "aurelia-fetch-client": "1.8.0",
     "bluebird": "3.5.2",
     "bootstrap": "4.3.1",
     "highcharts": "7.0.2",
     "jquery": "3.3.1",
     "popper.js": "1.14.7",
+    "proj4": "2.5.0",
     "systemjs": "0.21.5",
     "systemjs-plugin-text": "0.0.11"
   },

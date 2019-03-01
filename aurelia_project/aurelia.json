@@ -76,6 +76,11 @@
             "name": "highcharts",
             "path": "../node_modules/highcharts",
             "main": "highcharts"
+          },
+          {
+            "name": "proj4",
+            "path": "../node_modules/proj4/dist",
+            "main": "proj4-src"
           }
         ]
       }

@@ -1,3 +1,20 @@
 <template>
   <h1 class="h2">Home</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <map-geo
+          map.bind="map"
+          title="Highmaps basic lat/lon demo"
+          subtitle="Brazilian cities"
+          series.bind="seriesLatLon">
+        </map-geo>
+      </div>
+
+      <div class="col-6">
+
+      </div>
+    </div>
+  </div>
 </template>

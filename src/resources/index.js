@@ -3,6 +3,7 @@ export function configure(config) {
     'resources/elements/line-chart',
     'resources/elements/column-chart',
     'resources/elements/bar-chart',
-    'resources/elements/pie-chart'
+    'resources/elements/pie-chart',
+    'resources/elements/map-geo'
   ]);
 }
