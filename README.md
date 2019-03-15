@@ -2,6 +2,8 @@
 
 aurelia-highcharts it is a project with examples using the library Highcharts.
 
+![Highcharts](assets/img/bar.png "Bar Chart")
+
 ## Built With
 
 * [Aurelia CLI](https://aurelia.io/docs/cli/basics/) - The Aurelia CLI is the official command line tool for Aurelia
