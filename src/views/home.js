@@ -14,6 +14,18 @@ export class Home{
     {unidade: "Acre", lat: -9.0478679, lon: -70.5264976, z:2, color:"#8d8e90"}
   ];
 
+  seriesGauge = [{
+    name: 'Speed',
+    data: [80],
+    tooltip: {valueSuffix: ' km/h'}
+  }];
+
+  intervals = [
+    {from: 0, to: 55, color: '#55BF3B'},
+    {from: 55, to: 80, color: '#DDDF0D'},
+    {from: 80, to: 100, color: '#DF5353'}
+  ];
+
   constructor(http){
     this.http = http;
   }

@@ -4,6 +4,7 @@ export function configure(config) {
     'resources/elements/column-chart',
     'resources/elements/bar-chart',
     'resources/elements/pie-chart',
-    'resources/elements/map-geo'
+    'resources/elements/map-geo',
+    'resources/elements/gauge'
   ]);
 }
